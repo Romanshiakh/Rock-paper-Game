@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    font-size: 23px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(12, 23, 35);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    box-sizing: border-box;
+
+}
+
+#heading {
+    color: black;
+    background-color: white;
+    padding: 20px;
+    width: 100%;
+
+}
+
+.score-board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 250px;
+    border: 3px solid white;
+    border-radius: 4px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+
+}
+
+.badge {
+    background-color: green;
+    font-size: 20px;
+    padding: 3px 10px;
+
+
+}
+
+
+#user-label {
+    position: absolute;
+    top: 34px;
+    left: -25px;
+
+}
+
+#computer-label {
+    position: absolute;
+    top: 34px;
+    right: -38px;
+
+}
+
+/* Score board */
+.score {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+#user-score,
+#computer-score {
+    font-size: 4rem;
+
+}
+
+
+
+.choices {
+    display: flex;
+
+}
+
+.choices img:active {
+    border: 5px solid grey;
+}
+
+.choice img {
+    border-radius: 50%;
+    border: 5px solid white;
+    /* display: inline-block; */
+    cursor: pointer;
+    margin: 20px 20px;
+
+
+
+}
+
+.choice img:hover {
+    opacity: .5;
+    transition: ease-in;
+    transition-duration: 0.1s;
+}
+
+
+.reset-btn {
+    padding: 14px 20px;
+    margin-top: 10rem;
+    border-radius: 8px;
+    font-size: 20px;
+    border: 1px solid #000;
+}
+
+.reset-btn:hover {
+    background-color: black;
+    color: white;
+    transition: ease-in-out;
+    transition-duration: 0.2s;
+
+
+}
+
+.reset-btn:active {
+    border: 2px solid white;
+    box-shadow: 0 0 2px 2px;
+}
