@@ -11,7 +11,7 @@ This is a web-based Rock Paper Scissors game where two Players can play the game
 
 
 
-- Installation
+1- Installation
 Clone the repository:
 
 bash
@@ -24,7 +24,7 @@ Open index.html in your favorite web browser.
 
 
 
-- Usage
+2- Usage
 Open the index.html file in a web browser.
 
 Click on one of the choices (rock, paper, or scissors).
@@ -35,7 +35,7 @@ The game will also show the result (win, lose, or draw) and update the score acc
 
 
 
-- Technologies Used
+3- Technologies Used
 HTML: Structure of the web page.
 
 CSS: Styling for the web page.
@@ -43,9 +43,9 @@ CSS: Styling for the web page.
 JavaScript: Game logic and interactivity.
 
 
-- Contributing
+4- Contributing
 Contributions are welcome! Please fork the repository and submit a pull request for any improvements or bug fixes.
 
 
-- License
+5- License
 This project is licensed under the MIT License. See the LICENSE file for details.
