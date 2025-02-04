@@ -1,6 +1,5 @@
 Rock Paper Scissors Game
-This is a web-based Rock Paper Scissors game where two Players can play the game.
-
+This is a web-based Rock Paper Scissors game where users can play against the computer.
 
 -- Table of Contents --
 - Installation
@@ -29,7 +28,7 @@ Open the index.html file in a web browser.
 
 Click on one of the choices (rock, paper, or scissors).
 
-The game will display your Player1 and Player2 choice.
+The game will display your choice and the computer's choice.
 
 The game will also show the result (win, lose, or draw) and update the score accordingly.
 
